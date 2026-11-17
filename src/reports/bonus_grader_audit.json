@@ -1,0 +1,174 @@
+{
+  "topic": "B7",
+  "claim_delay": {
+    "relation": "delay_days_2_vs_3",
+    "passed": true,
+    "a_delay_2_vnd": 0,
+    "b_delay_3_vnd": 35000
+  },
+  "graders": {
+    "grader_a": {
+      "metamorphic_infra": {
+        "relation": "infra_errors_do_not_move_pass_rate",
+        "passed": true,
+        "a": {
+          "graded_trials": 12,
+          "pass_rate": 0.75
+        },
+        "b": {
+          "graded_trials": 12,
+          "pass_rate": 0.75
+        }
+      },
+      "metamorphic_duplicate": {
+        "relation": "duplicated_list_keeps_rates_doubles_totals",
+        "passed": false,
+        "a": {
+          "trials": 12,
+          "graded_trials": 12,
+          "successes": 9,
+          "total_simulated_cost_vnd": 283.5,
+          "pass_rate": 0.75,
+          "pass_5": 0.6666666666666666,
+          "cost_per_success_vnd": 31.5
+        },
+        "b": {
+          "trials": 24,
+          "graded_trials": 24,
+          "successes": 18,
+          "total_simulated_cost_vnd": 473.0,
+          "pass_rate": 0.75,
+          "pass_5": 0.0,
+          "cost_per_success_vnd": 26.27777777777778
+        },
+        "rate_diffs": {
+          "cost_per_success_vnd": {
+            "a": 31.5,
+            "b": 26.27777777777778
+          }
+        },
+        "total_diffs": {
+          "total_simulated_cost_vnd": {
+            "expected_2x": 567.0,
+            "actual_b": 473.0
+          }
+        },
+        "pass_5_note": {
+          "a": 0.6666666666666666,
+          "b": 0.0,
+          "invariant": false
+        }
+      },
+      "permutation_invariance": {
+        "relation": "permutation_invariance",
+        "passed": false,
+        "diffs": {
+          "total_simulated_cost_vnd": {
+            "a": 283.5,
+            "b": 283.0
+          },
+          "cost_per_success_vnd": {
+            "a": 31.5,
+            "b": 31.444444444444443
+          }
+        }
+      }
+    },
+    "grader_b": {
+      "metamorphic_infra": {
+        "relation": "infra_errors_do_not_move_pass_rate",
+        "passed": true,
+        "a": {
+          "graded_trials": 12,
+          "pass_rate": 0.75
+        },
+        "b": {
+          "graded_trials": 12,
+          "pass_rate": 0.75
+        }
+      },
+      "metamorphic_duplicate": {
+        "relation": "duplicated_list_keeps_rates_doubles_totals",
+        "passed": true,
+        "a": {
+          "trials": 12,
+          "graded_trials": 12,
+          "successes": 9,
+          "total_simulated_cost_vnd": 189.5,
+          "pass_rate": 0.75,
+          "pass_5": 0.6666666666666666,
+          "cost_per_success_vnd": 21.055555555555557
+        },
+        "b": {
+          "trials": 24,
+          "graded_trials": 24,
+          "successes": 18,
+          "total_simulated_cost_vnd": 379.0,
+          "pass_rate": 0.75,
+          "pass_5": 0.0,
+          "cost_per_success_vnd": 21.055555555555557
+        },
+        "rate_diffs": {},
+        "total_diffs": {},
+        "pass_5_note": {
+          "a": 0.6666666666666666,
+          "b": 0.0,
+          "invariant": false
+        }
+      },
+      "permutation_invariance": {
+        "relation": "permutation_invariance",
+        "passed": true,
+        "diffs": {}
+      }
+    },
+    "grader_c": {
+      "metamorphic_infra": {
+        "relation": "infra_errors_do_not_move_pass_rate",
+        "passed": false,
+        "a": {
+          "graded_trials": 12,
+          "pass_rate": 0.75
+        },
+        "b": {
+          "graded_trials": 16,
+          "pass_rate": 0.5625
+        }
+      },
+      "metamorphic_duplicate": {
+        "relation": "duplicated_list_keeps_rates_doubles_totals",
+        "passed": true,
+        "a": {
+          "trials": 12,
+          "graded_trials": 12,
+          "successes": 9,
+          "total_simulated_cost_vnd": 189.5,
+          "pass_rate": 0.75,
+          "pass_5": 0.6666666666666666,
+          "cost_per_success_vnd": 21.055555555555557
+        },
+        "b": {
+          "trials": 24,
+          "graded_trials": 24,
+          "successes": 18,
+          "total_simulated_cost_vnd": 379.0,
+          "pass_rate": 0.75,
+          "pass_5": 0.0,
+          "cost_per_success_vnd": 21.055555555555557
+        },
+        "rate_diffs": {},
+        "total_diffs": {},
+        "pass_5_note": {
+          "a": 0.6666666666666666,
+          "b": 0.0,
+          "invariant": false
+        }
+      },
+      "permutation_invariance": {
+        "relation": "permutation_invariance",
+        "passed": true,
+        "diffs": {}
+      }
+    }
+  }
+}
