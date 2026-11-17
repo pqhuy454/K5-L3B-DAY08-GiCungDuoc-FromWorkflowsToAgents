@@ -29,11 +29,11 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| Phạm Quốc Huy | Lead & QA Integration | `<cập nhật sau khi commit>` | `src/tests/test_student_integration.py` |
-| Trịnh Gia Huy | Durability, Eval & Benchmark Lead | `<cập nhật sau khi commit>` | `src/tests/test_student_durability.py` |
-| Trần Tùng Lâm | Shape A Workflow Lead | `<chờ commit>` | `chờ` |
-| Đặng Đức Minh | Shape B Single ReAct | `<chờ commit>` | `chờ` |
-| Nguyễn Thành Tâm | Shape C & Security Lead | `<chờ commit>` | `chờ` |
+| Phạm Quốc Huy | Lead & QA Integration | `0f3ec30c86bb34180c4fcdb4114900a891b995bd` | `src/tests/test_student_integration.py` |
+| Trịnh Gia Huy | Durability, Eval & Benchmark Lead | `c416c60052e4baea2f1a7fcf14b76a5846b3e2e5` | `src/tests/test_student_durability.py` |
+| Trần Tùng Lâm | Shape A Workflow Lead | `72e379b56c78c2776af4e7f2a399b3ecce75aeaf` | `src/tests/test_student_workflow.py` |
+| Đặng Đức Minh | Shape B Single ReAct | `8749032af279e6c7d7bf8cca00ca9d3f65712519` | `src\tests\test_student_single.py` |
+| Nguyễn Thành Tâm | Shape C & Security Lead | `2adc9b43bdf9a09a43f2331ad85dceafd1fa37f8` | `src/tests/test_orchestrator_security.py` |
 
 
 
