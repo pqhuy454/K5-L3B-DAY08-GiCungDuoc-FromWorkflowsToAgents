@@ -30,7 +30,7 @@ Gợi ý chia vai:
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
 | Phạm Quốc Huy | Lead & QA Integration | `<cập nhật sau khi commit>` | `src/tests/test_student_integration.py` |
-| Trịnh Gia Huy | Durability, Eval & Benchmark Lead | `<chờ commit>` | `chờ` |
+| Trịnh Gia Huy | Durability, Eval & Benchmark Lead | `<cập nhật sau khi commit>` | `src/tests/test_student_durability.py` |
 | Trần Tùng Lâm | Shape A Workflow Lead | `<chờ commit>` | `chờ` |
 | Đặng Đức Minh | Shape B Single ReAct | `<chờ commit>` | `chờ` |
 | Nguyễn Thành Tâm | Shape C & Security Lead | `<chờ commit>` | `chờ` |
