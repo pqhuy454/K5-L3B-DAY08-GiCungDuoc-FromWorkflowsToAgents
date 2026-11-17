@@ -6,7 +6,7 @@ Tối đa 5 trang ngoài phụ lục. Số liệu lấy từ file trong `src/rep
 
 - Tên nhóm: GiCungDuoc
 - Thành viên: xem `TEAM.md`
-- Commit chốt (trùng `report/team/decision_adr.md`): `<cập nhật ở CP5>`
+- Commit chốt (trùng `report/team/decision_adr.md`): `0f731470eb5a843dfe8a1e6a22a2cc3bb0dfda5f`
 
 ## 2. Mục tiêu và cách tiếp cận
 

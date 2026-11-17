@@ -5,7 +5,7 @@
 - Tên nhóm: GiCungDuoc
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY08-GiCungDuoc-FromWorkflowsToAgents`
-- URL repo, nhánh nộp, commit chốt: https://github.com/pqhuy454/K5-L3B-DAY08-GiCungDuoc-FromWorkflowsToAgents | nhánh `main` | commit `<cập nhật ở CP5>`
+- URL repo, nhánh nộp, commit chốt: https://github.com/pqhuy454/K5-L3B-DAY08-GiCungDuoc-FromWorkflowsToAgents | nhánh `main` | commit `0f731470eb5a843dfe8a1e6a22a2cc3bb0dfda5f`
 
 ## Thành viên
 
