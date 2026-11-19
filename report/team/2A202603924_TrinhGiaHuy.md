@@ -27,7 +27,7 @@ Durability, Eval & Benchmark Lead:
 - Đọc trace `R-swarm-C-002-s55` để xác định nguyên nhân trial fail duy nhất của swarm: event `model_override` thay `delay_days` 2 bằng 5 lấy từ ticket.
 - Quyết định kỹ thuật đề xuất cho nhóm: chọn **workflow**. Ba shape nhóm viết ngang nhau về pass rate, pass^5 và variance, nên chọn shape ít tự chủ nhất và rẻ nhất (28.87 VND/success, so với 39.92 của single và 47.36 của orchestrator).
 
-Commit: `<cập nhật sau khi commit>`
+Commit: [`c416c60`](https://github.com/pqhuy454/K5-L3B-DAY08-GiCungDuoc-FromWorkflowsToAgents/commit/c416c60052e4baea2f1a7fcf14b76a5846b3e2e5) — `test(durability): shape-level crash/retry tests; eval: benchmark, crash, ADR, research card` (merge vào `main` qua PR #3).
 
 ## 4. Bằng chứng
 
